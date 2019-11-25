@@ -1,6 +1,10 @@
 {
-  "name": "creating-games",
+  "name": "P5 Booklet",
   "projects": [
-    "opdracht1"
+    "opdracht1",
+    "opdracht2",
+    "opdracht3",
+    "opdracht4",
+    "opdracht5"
   ]
 }
