@@ -36,3 +36,5 @@ function draw() {
 
 // 28. De betekenis van het minteken is dat die de andere kant op gaat. Het huis zal naar rechts verplaats worden
 // 29. Ja mijn voorspelling klopte. 
+// 29. Nu is de boom weer op de originele plek omdat de translate ongedaan gemaakt wordt
+
