@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "fix": "prettier --write **/*.js"
+    },
+    "devDependencies": {
+        "prettier": "^1.19.1"
+    }
+}

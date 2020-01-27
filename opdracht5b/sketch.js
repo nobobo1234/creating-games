@@ -1,12 +1,12 @@
 function setup() {
     createCanvas(900, 450);
-    background('cornflowerblue');
-    noLoop();  
+    background("cornflowerblue");
+    noLoop();
 }
 
 function draw() {
     noStroke();
-    fill('tan');
+    fill("tan");
     // Draw rectangle without translate
     rect(0, 0, 400, 400);
     // Draw rect with translate
@@ -15,7 +15,7 @@ function draw() {
     rect(0, 0, 400, 400);
     pop();
 
-    fill('peru');
+    fill("peru");
     // Draw rect without translate
     rect(0, 0, 150, 150);
     // Draw rect with translate

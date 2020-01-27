@@ -1,59 +1,59 @@
 var schaal;
 
 function tekenHuis() {
-  push();
-  strokeWeight(4);
-  stroke("darkgrey");
-  fill("lightgray");
-  rect(100, 180, 100, 100);
-  fill("gray");
-  triangle(100, 180, 200, 180, 150, 100);
-  noStroke();
-  rect(120, 230, 30, 50);
-  pop();
+    push();
+    strokeWeight(4);
+    stroke("darkgrey");
+    fill("lightgray");
+    rect(100, 180, 100, 100);
+    fill("gray");
+    triangle(100, 180, 200, 180, 150, 100);
+    noStroke();
+    rect(120, 230, 30, 50);
+    pop();
 }
 
 function tekenBoom(x) {
-  push();
-  noStroke();
-  fill("sienna");
-  rect(x, 130, 40, 130);
-  fill("olive");
-  ellipse(x + 20, 130, 100, 150);
-  pop();
+    push();
+    noStroke();
+    fill("sienna");
+    rect(x, 130, 40, 130);
+    fill("olive");
+    ellipse(x + 20, 130, 100, 150);
+    pop();
 }
 
 function tekenZon(x, s) {
-  push();
-  fill("red");
-  scale(s);
-  ellipse(x, 200, 300, 300);
-  pop();
+    push();
+    fill("red");
+    scale(s);
+    ellipse(x, 200, 300, 300);
+    pop();
 }
 
 function setup() {
-  createCanvas(1000, 300);
-  noStroke();
+    createCanvas(1000, 300);
+    noStroke();
 }
 
 function draw() {
-  background("cornflowerblue");
-  schaal = 1 + mouseY / height;
+    background("cornflowerblue");
+    schaal = 1 + mouseY / height;
 
-  tekenBoom(50);
-  tekenBoom(150);
-  tekenBoom(250);
+    tekenBoom(50);
+    tekenBoom(150);
+    tekenBoom(250);
 
-  // teken de grond
-  fill("wheat");
-  rect(0, 250, width, height - 250);
+    // teken de grond
+    fill("wheat");
+    rect(0, 250, width, height - 250);
 
-  tekenHuis();
+    tekenHuis();
 
-  tekenBoom(700);
-  tekenBoom(900);
+    tekenBoom(700);
+    tekenBoom(900);
 
-  tekenZon(mouseX, schaal);
+    tekenZon(mouseX, schaal);
 }
 
 // 92. De eerste parameter geeft de x-coordinaat van de zon aan en het tweede coordinaat geeft de groote van de zon weer door hem te scalen
