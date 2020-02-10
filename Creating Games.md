@@ -1,5 +1,7 @@
 ﻿# Games maken en ervaren
+
 Hieronder staan alle opdrachten
+
 ## [Opdracht 1](https://nobobo1234.github.io/creating-games/opdracht1/index.html)
 **Opdracht 8**. Als je de twee ellipse() functies omwisselt zal de kleinere ellips eerder worden getekend dan de grotere waardoor de kleinere ellips onder
 	de grotere ellips komt. Hierdoor zal je een volledig witte cirkel zien (als je de fill's niet mee omwisseld).
@@ -1005,7 +1007,7 @@ function tekenJos(x, y, kleur) {
 ```
 ## [Opdracht 23](https://nobobo1234.github.io/creating-games/opdracht23/index.html)
 **Opdracht 129**. Naar boven en naar onder werken
-** Opdracht 130**. Dat is de lengte van het blok
+**Opdracht 130**. Dat is de lengte van het blok
 **Opdracht 133**. Het blokje staat op `175`, dus als het blok op `175` (`100 + 75`) staat zal het overlappen met het kleine blokje. Hetzelfde kan je toepassen op de onderkant.
 **Opdracht 134**. Omdat het blokje er precies tussen moet zitten, en niet onder de een of boven de ander. Hierdoor zal het blokje altijd groen zijn. Twee is altijd kleiner dan drie OF groter dan een
 ```js
