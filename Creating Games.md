@@ -1,6 +1,6 @@
 ﻿# Games maken en ervaren
 Hieronder staan alle opdrachten
-## Opdracht 1
+## [Opdracht 1](https://nobobo1234.github.io/creating-games/opdracht1/index.html)
 **Opdracht 8**. Als je de twee ellipse() functies omwisselt zal de kleinere ellips eerder worden getekend dan de grotere waardoor de kleinere ellips onder
 	de grotere ellips komt. Hierdoor zal je een volledig witte cirkel zien (als je de fill's niet mee omwisseld).
 ```js
@@ -28,7 +28,7 @@ function draw() {
 	rect(125, 125, 200, 200);
 }
 ```
-## Opdracht 2
+## [Opdracht 2](https://nobobo1234.github.io/creating-games/opdracht2/index.html)
 **Opdracht 10**. Het zijn respectievelijk de `(x,y)` coördinaten van de punten van de driehoek. Dus `triangle(x1,y1,x2,y2,x3,y3);`
 **Opdracht 13**. Een vertex is de hoekpunt van een vorm
        CLOSE zorgt ervoor dat de vorm aan elkaar gemaakt wordt
@@ -77,7 +77,7 @@ function draw() {
     endShape(CLOSE);
 }
 ```
-## Opdracht 3
+## [Opdracht 3](https://nobobo1234.github.io/creating-games/opdracht3/index.html)
 **Opdracht 16**. Hij komt niet op het scherm omdat e hem als eerste tekent voor de andere
 **Opdracht 21**. De betekenis is de hoeveelheid transparantie die je meegeeft
 **Opdracht 22**. Bij 0 zal die volledig transparant zijn en bij 1 volledig vast
@@ -107,7 +107,7 @@ function draw() {
     triangle(225, 0, 450, 225, 225, 450);
 }
 ```
-## Opdracht 4
+## [Opdracht 4](https://nobobo1234.github.io/creating-games/opdracht4/index.html)
 ```js
 function setup() {
     createCanvas(450, 450);
@@ -143,7 +143,7 @@ function draw() {
     ellipse(320, 230, 100, 500 / 3);
 }
 ```
-## Opdracht 5
+## [Opdracht 5](https://nobobo1234.github.io/creating-games/opdracht5/index.html)
 **Opdracht 28**. De betekenis van het minteken is dat die de andere kant op gaat. Het huis zal naar rechts verplaats worden
 **Opdracht 29**. Ja mijn voorspelling klopte.
 **Opdracht 29**. Nu is de boom weer op de originele plek omdat de translate ongedaan gemaakt wordt
@@ -184,7 +184,7 @@ function draw() {
     ellipse(320, 230, 100, 150);
 }
 ```
-## Opdracht 6
+## [Opdracht 6](https://nobobo1234.github.io/creating-games/opdracht6/index.html)
 **Opdracht 36**. Dan zal ook het 5e vierkant cornsilk van kleur worden
 ```js
 function setup() {
@@ -221,7 +221,7 @@ function draw() {
     rect(0, 0, 100, 100);
 }
 ```
-## Opdracht 7
+## [Opdracht 7](https://nobobo1234.github.io/creating-games/opdracht7/index.html)
 **Opdracht 38**. Hij is rond het linkerbovenpunt gedraaid, en hij is over 7*180/pi graden gedraaid
 ```js
 function setup() {
@@ -248,7 +248,7 @@ function draw() {
     rect(0, 0, 50, 50);
 }
 ```
-## Opdracht 8a
+## [Opdracht 8a](https://nobobo1234.github.io/creating-games/opdracht8/index.html)
 Resultaat van 43 t/m 45
 ```js
 const variabeleA = 21;
@@ -286,7 +286,7 @@ function draw() {
     rect(0, 0, 10 * uitkomst, 10 * uitkomst);
 }
 ```
-## Opdracht 8b
+## [Opdracht 8b](https://nobobo1234.github.io/creating-games/opdracht8b/index.html)
 Resultaat van opdracht 46
 ```js
 const variabeleA = 13;
@@ -324,7 +324,7 @@ function draw() {
     rect(0, 0, 10 * uitkomst, 10 * uitkomst);
 }
 ```
-## Opdracht 9
+## [Opdracht 9](https://nobobo1234.github.io/creating-games/opdracht9/index.html)
 **Opdracht 48**. Hij slaat het in windowHeight op.
 **Opdracht 49**. Hij slaat het in height op.
 **Opdracht  50**. Het blauwe tekstvak wordt eerder getekend.
@@ -371,7 +371,7 @@ function draw() {
     );
 }
 ```
-## Opdracht 10
+## [Opdracht 10](https://nobobo1234.github.io/creating-games/opdracht10/index.html)
 **Opdracht 56**. Dit komt omdat anders de background niet opnieuw wordt getekend en anders de stip niet zal verdwijnen
 ```js
 function setup() {
@@ -392,7 +392,7 @@ function draw() {
     ellipse(mouseX, mouseY, 10);
 }
 ```
-## Opdracht 11
+## [Opdracht 11](https://nobobo1234.github.io/creating-games/opdracht11/index.html)
 **Opdracht 62**. De cirkels gaan sneller bewegen
 ```js
 let horizontaalA = 120;
@@ -422,7 +422,7 @@ function draw() {
     horizontaalB++;
 }
 ```
-## Opdracht 12
+## [Opdracht 12](https://nobobo1234.github.io/creating-games/opdracht12/index.html)
 **Opdracht 65**. Deze regel zorgt ervoor dat JOS elke frame 1 pixel naar links beweegt
 ```js
 let xJOS = 350;
@@ -467,7 +467,7 @@ function draw() {
     //   yJOS -= 2;
 }
 ```
-## Opdracht 13
+## [Opdracht 13](https://nobobo1234.github.io/creating-games/opdracht13/index.html)
 **Opdracht 70**. In regel 27 kan je zien hoe groot JOS is.
 **Opdracht 72**. JOS volgt de muis niet meer goed, maar hij is wel 50% kleiner geworden.
 **Opdracht 73**. Nee want de radius van JOS is nog niet hetzelfde
@@ -520,7 +520,7 @@ function draw() {
     // einde tekenen JOS
 }
 ```
-## Opdracht 14
+## [Opdracht 14](https://nobobo1234.github.io/creating-games/opdracht14/index.html)
  **Opdracht 76**. JOS blijft daar staan omdat de waarde geconstraind is
 **Opdracht 81**. JOS zal eerst omhoog gaan door de snelheid die lager wordt. Vervolgens gaat hij omlaag door de negatieve snelheid. De snelheid blijft doorgaan omdat die niet constrained is.
 ```js
@@ -577,7 +577,7 @@ function draw() {
     speed.y -= acc.y;
 }
 ```
-## Opdracht 15
+## [Opdracht 15](https://nobobo1234.github.io/creating-games/opdracht15/index.html)
 ```js
 let xJOS = 75;
 let yJOS = 75;
@@ -625,7 +625,7 @@ function draw() {
     xJOS = constrain(xJOS, 0, width - 25);
 }
 ```
-## Opdracht 16
+## [Opdracht 16](https://nobobo1234.github.io/creating-games/opdracht16/index.html)
 ```js
 const diameter = 300;
 let blueCircleY;
@@ -655,7 +655,7 @@ function draw() {
     blueCircleY--;
 }
 ```
-## Opdracht 17
+## [Opdracht 17](https://nobobo1234.github.io/creating-games/opdracht17/index.html)
 **Opdracht 92.** De eerste parameter geeft de x-coordinaat van de zon aan en het tweede coordinaat geeft de groote van de zon weer door hem te scalen
 **Opdracht 93**. Ik verwacht een zon op x-coordinaat 500 en met een diameter van 300px
 **Opdracht 94**. Ik verwacht een zon te zien de x-coordinaat van mijn muis volgt en die wordt gescaled als percentage van het y-coordinaat van mijn muis
@@ -718,7 +718,7 @@ function draw() {
     tekenZon(mouseX, schaal);
 }
 ```
-## Opdracht 18
+## [Opdracht 18](https://nobobo1234.github.io/creating-games/opdracht18/index.html)
 **Opdracht 97**. Dan zal de achtergrond nit meer hertekend worden waardoor de ster een spoor zal achterlaten
 **Opdracht 98**. Dit komt doordat de achtergrond telkens weer hertekend wordt met een doorzichtigheid van 0.1 waardoor er een doorzichtig spoor achter de ster aangaat die langzaam verdwijnt als er meer 'achtergronden' overheen getekend worden.
 ```js
@@ -755,7 +755,7 @@ function draw() {
     schaal += 0.05;
 }
 ```
-## Opdracht 19
+## [Opdracht 19](https://nobobo1234.github.io/creating-games/opdracht19/index.html)
 **Opdracht 104.** Lijn 4 betekent dat als p hoger wordt dan de lengte of breedte van het canvas dat dan de draw functie moet stoppen
 ```js
 var p = 100;
@@ -817,7 +817,7 @@ function tekenLijnen(p) {
     pop();
 }
 ```
-## Opdracht 20
+## [Opdracht 20](https://nobobo1234.github.io/creating-games/opdracht20/index.html)
 **Opdracht 107**. `if (keyisPressed == true)` betekent: 'Als het waar is dat een toets is ingedrukt'
 **Opdracht 108**. Anders
 **Opdracht 109**. Als de muisknop is ingedrukt in plaats van een toets op het toetsenbord
@@ -873,7 +873,7 @@ function tekenJos(x, y, s) {
     pop();
 }
 ```
-## Opdracht 21
+## [Opdracht 21](https://nobobo1234.github.io/creating-games/opdracht21/index.html)
 **Opdracht 113**. 
 A) Het balletje zal groen worden als de snelheid onder de vijf is,
 B) Het balletje zal groen worden als de snelheid boven de vijf is
@@ -930,7 +930,7 @@ function draw() {
     ellipse(x, 170, diameter);
 }
 ```
-## Opdracht 22
+## [Opdracht 22](https://nobobo1234.github.io/creating-games/opdracht22/index.html)
 **Opdracht 119**. De regels 15 en 16
 **Opdracht 120**. Dat is de straal van JOS, de helft van zijn kleur
 **Opdracht 121**. JOS moet 30 pixels bij de rand vandaan zijn om rood te worden
@@ -1003,7 +1003,7 @@ function tekenJos(x, y, kleur) {
     pop();
 }
 ```
-## Opdracht 23
+## [Opdracht 23](https://nobobo1234.github.io/creating-games/opdracht23/index.html)
 **Opdracht 129**. Naar boven en naar onder werken
 ** Opdracht 130**. Dat is de lengte van het blok
 **Opdracht 133**. Het blokje staat op `175`, dus als het blok op `175` (`100 + 75`) staat zal het overlappen met het kleine blokje. Hetzelfde kan je toepassen op de onderkant.
@@ -1049,7 +1049,7 @@ function draw() {
     rect(x, y, 100, 100);
 }
 ```
-## Opdracht 24
+## [Opdracht 24](https://nobobo1234.github.io/creating-games/opdracht24/index.html)
 **Opdracht 139**. Dit gebeurt omdat de oude waardes in de if check nog steeds gecodeerd zijn
 ```js
 let xJager = 50;
